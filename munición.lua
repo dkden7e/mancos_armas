@@ -62,5 +62,20 @@ Ammo = {
 	['ammo-sniper'] = {
 		label = '7.62 NATO',
 		weight = 11,
-	}
+	},
+	
+        ['ammo-rocket'] = {
+		label = 'Rocket',
+		weight = 20,
+	},
+
+        ['ammo-40mm'] = {
+		label = '40MM Granade',
+		weight = 17,
+	},
+
+	['ammo-40mm2'] = {
+		label = '40MM Smoke',
+		weight = 16,
+
 }
