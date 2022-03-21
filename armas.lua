@@ -52,7 +52,7 @@ Weapons = {
 		label = 'Pelota',
 		description = '',
 		weight = 149,
-		durability = 1,
+		throwable = true,
 	},
 	['WEAPON_BAT'] = {
 		label = 'Bate de béisbol',
@@ -97,7 +97,7 @@ Weapons = {
 		label = 'Gas BZ',
 		description = 'Un axfisiante gas que dejará K.O en cuestion de segundo a cualquier persona que lo respire',
 		weight = 600,
-		durability = 0.01,
+		throwable = true,
 	},
 	['WEAPON_CARBINERIFLE'] = {
 		label = 'Carabina',
@@ -218,7 +218,7 @@ Weapons = {
 		label = 'Bengala',
 		description = '',
 		weight = 235,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_FLAREGUN'] = {
 		label = 'Pistola de bengalas',
@@ -250,7 +250,7 @@ Weapons = {
 		label = 'Granada',
 		description = '',
 		weight = 600,
-		durability = '',
+		throwable = true,
 	},
 	['WEAPON_GRENADELAUNCHER'] = {
 		label = 'Lanzagranadas',
@@ -418,7 +418,7 @@ Weapons = {
 		label = 'Cóctel molotov',
 		description = '',
 		weight = 1800,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_MUSKET'] = {
 		label = 'Mosquete',
@@ -450,7 +450,7 @@ Weapons = {
 		label = 'Bomba casera',
 		description = 'Recuerda: no cuenta como bomba casera si la compras en una tienda y la usas en un país del primer mundo.',
 		weight = 1800,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_PISTOL'] = {
 		label = 'Pistola',
@@ -483,7 +483,7 @@ Weapons = {
 		label = 'Mina de proximidad',
 		description = 'Deja un regalo para tus amigos con estas minas con sensor de proximidad. Hay una corta espera tras su activación.',
 		weight = 2500,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_PUMPSHOTGUN'] = {
 		label = 'Escopeta de corredera',
@@ -552,7 +552,7 @@ Weapons = {
 		label = 'Gas lacrimógeno',
 		description = '',
 		weight = 600,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_SNIPERRIFLE'] = {
 		label = 'Fusil de francotirador',
@@ -565,7 +565,7 @@ Weapons = {
 		label = 'Bola de nieve',
 		description = '',
 		weight = 5,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_SNSPISTOL'] = {
 		label = 'Pistola cutre',
@@ -599,7 +599,7 @@ Weapons = {
 		label = 'Bomba adhesiva',
 		description = '',
 		weight = 1000,
-		durability = '????',
+		throwable = true,
 	},
 	['WEAPON_STINGER'] = {
 		label = 'Lanzacohetes',
