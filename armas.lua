@@ -44,15 +44,15 @@ Weapons = {
 	['WEAPON_AUTOSHOTGUN'] = {
 		label = 'Escopeta Sweeper',
 		description = '¿Cuántos instrumentos antidisturbios eficaces te puedes guardar en los pantalones? Vale, dos. Pero este es el otro.',
-		weight = '????',
-		durability = '????',
-		ammoname = '????'
+		weight = 2850,
+		durability = 0.05,
+		ammoname = 'ammo-shotgun'
 	},
 	['WEAPON_BALL'] = {
 		label = 'Pelota',
 		description = '',
 		weight = 149,
-		throwable = true,
+		durability = 1,
 	},
 	['WEAPON_BAT'] = {
 		label = 'Bate de béisbol',
@@ -95,9 +95,9 @@ Weapons = {
 	},
 	['WEAPON_BZGAS'] = {
 		label = 'Gas BZ',
-		description = '',
+		description = 'Un axfisiante gas que dejará K.O en cuestion de segundo a cualquier persona que lo respire',
 		weight = 600,
-		throwable = true,
+		durability = 0.01,
 	},
 	['WEAPON_CARBINERIFLE'] = {
 		label = 'Carabina',
@@ -198,8 +198,8 @@ Weapons = {
 	['WEAPON_FERTILIZERCAN'] = {
 		label = 'Bidón de fertilizante',
 		description = '',
-		weight = '????',
-		durability = '????',
+		weight = 1500,
+		durability = 1,
 		ammoname = '????'
 	},
 	['WEAPON_FIREEXTINGUISHER'] = {
@@ -218,7 +218,7 @@ Weapons = {
 		label = 'Bengala',
 		description = '',
 		weight = 235,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_FLAREGUN'] = {
 		label = 'Pistola de bengalas',
@@ -236,9 +236,9 @@ Weapons = {
 	['WEAPON_GADGETPISTOL'] = {
 		label = 'Pistola Perico',
 		description = 'Su disparo es letal. No seas tiquismiquis; no vas a rayar su acabado de nitruro de titanio.',
-		weight = '????',
-		durability = '????',
-		ammoname = '????'
+		weight = 960,
+		durability = 0.2,
+		ammoname = 'ammo-38'
 	},
 	['WEAPON_GOLFCLUB'] = {
 		label = 'Palo de golf',
@@ -250,7 +250,7 @@ Weapons = {
 		label = 'Granada',
 		description = '',
 		weight = 600,
-		throwable = true,
+		durability = '',
 	},
 	['WEAPON_GRENADELAUNCHER'] = {
 		label = 'Lanzagranadas',
@@ -301,9 +301,9 @@ Weapons = {
 	['WEAPON_HEAVYRIFLE'] = {
 		label = 'Fusil pesado',
 		description = 'La respuesta directa con 30 proyectiles a la eterna pregunta: "¿Cómo me quito a este tipo de encima?".',
-		weight = '????',
-		durability = '????',
-		ammoname = '????'
+		weight = 3800,
+		durability = 0.05,
+		ammoname = 'ammo-rifle2'
 	},
 	['WEAPON_HEAVYSHOTGUN'] = {
 		label = 'Escopeta pesada',
@@ -329,8 +329,8 @@ Weapons = {
 	['WEAPON_HOMINGLAUNCHER'] = {
 		label = 'Lanzacohetes guiado',
 		description = 'Lanzacohetes guiado por infrarrojos, dispara y olvídate. Para todas tus necesidades de objetivos móviles.',
-		weight = '????',
-		durability = '????',
+		weight = 20000,
+		durability = 0.1,
 		ammoname = '????'
 	},
 	['WEAPON_KNIFE'] = {
@@ -403,9 +403,9 @@ Weapons = {
 	['WEAPON_MINIGUN'] = {
 		label = 'Ametralladora rotatoria',
 		description = '',
-		weight = '????',
-		durability = '????',
-		ammoname = '????'
+		weight = 10000,
+		durability = 0.2,
+		ammoname = 'ammo-rifle'
 	},
 	['WEAPON_MINISMG'] = {
 		label = 'Minisubfusil',
@@ -418,7 +418,7 @@ Weapons = {
 		label = 'Cóctel molotov',
 		description = '',
 		weight = 1800,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_MUSKET'] = {
 		label = 'Mosquete',
@@ -450,7 +450,7 @@ Weapons = {
 		label = 'Bomba casera',
 		description = 'Recuerda: no cuenta como bomba casera si la compras en una tienda y la usas en un país del primer mundo.',
 		weight = 1800,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_PISTOL'] = {
 		label = 'Pistola',
@@ -483,7 +483,7 @@ Weapons = {
 		label = 'Mina de proximidad',
 		description = 'Deja un regalo para tus amigos con estas minas con sensor de proximidad. Hay una corta espera tras su activación.',
 		weight = 2500,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_PUMPSHOTGUN'] = {
 		label = 'Escopeta de corredera',
@@ -502,8 +502,8 @@ Weapons = {
 	['WEAPON_RAILGUN'] = {
 		label = 'Fusil electromagnético',
 		description = 'Lo único que necesitas saber es que usa imanes y que hace cosas horribles a lo que apuntas.',
-		weight = '????',
-		durability = '????',
+		weight = 1100,
+		durability = 0.1,
 		ammoname = '????'
 	},
 	['WEAPON_REVOLVER'] = {
@@ -523,8 +523,8 @@ Weapons = {
 	['WEAPON_RPG'] = {
 		label = 'Lanzacohetes',
 		description = '',
-		weight = '????',
-		durability = '????',
+		weight = 5000,
+		durability = 0.1,
 		ammoname = '????'
 	},
 	['WEAPON_SAWNOFFSHOTGUN'] = {
@@ -552,7 +552,7 @@ Weapons = {
 		label = 'Gas lacrimógeno',
 		description = '',
 		weight = 600,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_SNIPERRIFLE'] = {
 		label = 'Fusil de francotirador',
@@ -565,7 +565,7 @@ Weapons = {
 		label = 'Bola de nieve',
 		description = '',
 		weight = 5,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_SNSPISTOL'] = {
 		label = 'Pistola cutre',
@@ -599,13 +599,13 @@ Weapons = {
 		label = 'Bomba adhesiva',
 		description = '',
 		weight = 1000,
-		throwable = true,
+		durability = '????',
 	},
 	['WEAPON_STINGER'] = {
 		label = 'Lanzacohetes',
 		description = '',
-		weight = '????',
-		durability = '????',
+		weight = 7000,
+		durability = 0.1,
 		ammoname = '????'
 	},
 	['WEAPON_STONE_HATCHET'] = {
