@@ -1,5 +1,5 @@
 Components = {
-	['at_flashlight'] = {
+	['at_flashlight'] = {/*linterna*/
 		label = 'Tactical Flashlight',
 		weight = 120,
 		type = 'flashlight',
@@ -29,7 +29,7 @@ Components = {
 		}
 	},
 
-	['at_grip'] = {
+	['at_grip'] = {/*empuñadura*/
 		label = 'Grip Tape',
 		type = 'grip',
 		weight = 280,
@@ -39,7 +39,7 @@ Components = {
 		}
 	},
 
-	['at_barrel'] = {
+	['at_barrel'] = {/*cañon*/
 		label = 'Heavy Barrel',
 		type = 'barrel',
 		weight = 280,
@@ -48,7 +48,7 @@ Components = {
 			usetime = 2500
 		}
 	},
-
+/*----------Cargadores----------*/
 	['at_clip_extended_pistol'] = {
 		label = 'Extended Pistol Clip',
 		type = 'magazine',
@@ -148,7 +148,7 @@ Components = {
 			usetime = 2500
 		}
 	},
-
+/*-----------Miras------------*/
 	['at_scope_small'] = {
 		label = 'Sight',
 		type = 'sight',
@@ -208,7 +208,7 @@ Components = {
 			usetime = 2500
 		}
 	},
-
+/*-----------Boca de cañon-----------*/
 	['at_muzzle_squared'] = {
 		label = 'Squared Muzzle',
 		type = 'barrel',
@@ -298,7 +298,7 @@ Components = {
 			usetime = 2500
 		}
 	},
-
+/*-----------SKINS----------*/
 	['at_skin_gold'] = {
 		label = 'Luxury Weapon Kit',
 		type = 'skin',
