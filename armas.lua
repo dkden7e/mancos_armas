@@ -1,21 +1,21 @@
 Weapons = {
 	['WEAPON_ADVANCEDRIFLE'] = {
 		label = 'Fusil avanzado',
-		description = 'Buena cadencia, estable y Fiable, Un Arma Perfecta para gente imperfecta',
+		description = 'Fusil bullpup de origen israelí. Sencillo, fiable, manejable y relativamente económico.',
 		weight = 3180,
 		durability = 0.03,
 		ammoname = 'ammo-rifle'
 	},
 	['WEAPON_APPISTOL'] = {
 		label = 'Pistola perforante',
-		description = 'Toda la cadencia y potencia de un arma automatica, compactada en una comoda y fiable Pistola.',
+		description = 'Pistola automática altamente letal, favorita de escoltas, sicarios y pandilleros (cuando pueden conseguir una).',
 		weight = 1220,
 		durability = 0.1,
 		ammoname = 'ammo-9'
 	},
 	['WEAPON_ASSAULTRIFLE'] = {
 		label = 'Fusil de asalto',
-		description = 'Quien no ha disparado una de estas alguna vez? El clasico Rifle de Asalto que tanta gente quiere en algun momento de su vida.',
+		description = 'Rifle automático de origen soviético, diseño fiable, simple y (si no fuera por los impuestos) económico. Altamente letal.',
 		weight = 3470,
 		durability = 0.03,
 		ammoname = 'ammo-rifle2'
@@ -29,14 +29,14 @@ Weapons = {
 	},
 	['WEAPON_ASSAULTSHOTGUN'] = {
 		label = 'Escopeta de asalto',
-		description = 'Potencia, Dispersion y... FIESTA!!! Con esta Escopeta automatica y Ruidosa, solo faltara alguien que se atreva a traer los globos y el champan.',
+		description = 'Potencia, dispersión y... FIESTA!!! con esta escopeta automatica y ruidosa, solo falta alguien que traiga los globos y el champagne.',
 		weight = 3100,
 		durability = 0.05,
 		ammoname = 'ammo-shotgun'
 	},
 	['WEAPON_ASSAULTSMG'] = {
 		label = 'Subfusil de asalto',
-		description = 'Buscas Algo ligero, pero letal? Aqui lo tienes, no busques mas.',
+		description = 'Buscas una submetralleta ligera pero letal? Aquí la tienes, no busques más.',
 		weight = 2850,
 		durability = 0.05,
 		ammoname = 'ammo-rifle'
@@ -56,7 +56,7 @@ Weapons = {
 	},
 	['WEAPON_BAT'] = {
 		label = 'Bate de béisbol',
-		description = 'Este Maravilloso bate de alta calidad es la infancia y presente de muchos amantes de este deporte',
+		description = 'Este maravilloso bate de alta calidad es la infancia y presente de muchos amantes de este deporte',
 		weight = 1134,
 		durability = 0.1,
 	},
@@ -88,7 +88,7 @@ Weapons = {
 	},
 	['WEAPON_BULLPUPSHOTGUN'] = {
 		label = 'Escopeta bullpup',
-		description = 'Dos Cañones, Son Mejor que uno, PUM! PUM! Cuantos han caido? ',
+		description = 'Dos cañones son mejor que uno. PUM! PUM! Cuántos han caido? ',
 		weight = 3100,
 		durability = 0.2,
 		ammoname = 'ammo-shotgun'
@@ -101,7 +101,7 @@ Weapons = {
 	},
 	['WEAPON_CARBINERIFLE'] = {
 		label = 'Carabina',
-		description = 'Fiable, Clasica, Estable, Preciosa, solo hay palabras bonitas, para esta fantastica maravilla armamentistica.',
+		description = 'Rifle de asalto diseñado originalmente en los años 60 para el ejército estadounidense. La evolución actual es más compacta, ligera, fiable y compatible con todo tipo de accesorios avanzados.',
 		weight = 3100,
 		durability = 0.03,
 		ammoname = 'ammo-rifle'
@@ -122,7 +122,7 @@ Weapons = {
 	},
 	['WEAPON_COMBATMG'] = {
 		label = 'Ametralladora de combate',
-		description = 'Que Timble Cualquiera que se encuentre delante de el cañon de esta Ametralladora, y que vaya al gym el que quiera empuñarla.',
+		description = 'Que tiemble Cualquiera que se encuentre delante de el cañón de esta ametralladora, y que vaya al gym quien quiera empuñarla.',
 		weight = 10000,
 		durability = 0.02,
 		ammoname = 'ammo-rifle'
@@ -143,7 +143,7 @@ Weapons = {
 	},
 	['WEAPON_COMBATPISTOL'] = {
 		label = 'Pistola de combate',
-		description = 'Discreta y Clasica, el arma preferida de los Agentes Nuevos de la Comisaria.',
+		description = 'Extremadamente fiable, barata, discreta y actualmente todo un clásico, la pistola de compate es el arma preferida para defensa personal y predilecta de las fuerzas del orden.',
 		weight = 970,
 		durability = 0.2,
 		ammoname = 'ammo-9'
@@ -171,7 +171,7 @@ Weapons = {
 	},
 	['WEAPON_CROWBAR'] = {
 		label = 'Palanca',
-		description = 'Una Palanca contundente y Robusta.',
+		description = 'Una palanca contundente y robusta.',
 		weight = 2500,
 		durability = 0.1,
 	},
@@ -197,14 +197,14 @@ Weapons = {
 	},
 	['WEAPON_FERTILIZERCAN'] = {
 		label = 'Bidón de fertilizante',
-		description = 'Huele Mal, Pero a las Plantas Parece que les Encanta, Deberias Probarlo?',
+		description = 'Huele mal, pero a las plantas parece que les encanta, deberías probarlo?',
 		weight = 1500,
 		durability = 1,
 		ammoname = '????'
 	},
 	['WEAPON_FIREEXTINGUISHER'] = {
 		label = 'Extintor',
-		description = 'Un Fantastico Y Humeante extintor convecional, Creo que todo el mundo sabe para que sirve uno de estos.',
+		description = 'Un fantástico y humeante extintor convencional, creo que todo el mundo sabe para qué sirve.',
 		weight = 8616,
 		durability = '????',
 	},
@@ -242,26 +242,26 @@ Weapons = {
 	},
 	['WEAPON_GOLFCLUB'] = {
 		label = 'Palo de golf',
-		description = 'HOLE IN ONE! Este estupendo Palo es todo lo que necesitas para ser el Popular en tu Club de Golf.',
+		description = 'HOLE IN ONE! Este estupendo palo es todo lo que necesitas para ser el más popular del Club de Golf.',
 		weight = 330,
 		durability = 0.1,
 	},
 	['WEAPON_GRENADE'] = {
 		label = 'Granada',
-		description = 'Quita la anilla, sueltala y corre, sencillo? mas te vale que estes lejos cuando explote.',
+		description = 'Quita la anilla, suéltala y corre, sencillo? más te vale que estes lejos cuando explote.',
 		weight = 600,
 		throwable = true,
 	},
 	['WEAPON_GRENADELAUNCHER'] = {
 		label = 'Lanzagranadas',
-		description = 'Placer, Orden y Caos, en un como tambor de 6 Granadas de 40MM',
+		description = 'Lanzagranadas automático con un tambor de 6 granadas de 40mm',
 		weight = 5500,
 		durability = 0.02,
 		ammoname = 'ammo-40mm'
 	},
 	['WEAPON_GRENADELAUNCHER_SMOKE'] = {
 		label = 'Lanzagranadas de gas lacrimógeno',
-		description = '6 Granadas 40MM de Gas BZ le cortan la respiracion a cualquiera, No les Culpes si se ahogan antes de que puedas decirles algo.',
+		description = 'Lanzagranadas fumígeno con un tambor de 6 granadas de humo de 40mm.',
 		weight = 5000,
 		durability = 0.02,
 		ammoname = 'ammo-40mm2'
@@ -275,7 +275,7 @@ Weapons = {
 	},
 	['WEAPON_HAMMER'] = {
 		label = 'Martillo',
-		description = 'Domingo, Limonada, un amplio jardin y un poco de Bricolaje, no se, piensalo.',
+		description = 'Domingo, limonada, un amplio jardín y un poco de bricolaje, no sé, piénsalo.',
 		weight = 1200,
 		durability = 0.1,
 	},
@@ -314,7 +314,7 @@ Weapons = {
 	},
 	['WEAPON_HEAVYSNIPER'] = {
 		label = 'Fusil francotirador pesado',
-		description = 'Un Gran Fusil preciso y pesado, capaz de alcanzar objetivos a grandes distancias.',
+		description = 'Fusil antimaterial que dispara grandes proyectiles a grandes distancias. La convención de Ginebra prohíbe utilizarlo directamente contra objetivos humanos.',
 		weight = 14000,
 		durability = 0.5,
 		ammoname = 'ammo-heavysniper'
@@ -327,15 +327,15 @@ Weapons = {
 		ammoname = 'ammo-heavysniper'
 	},
 	['WEAPON_HOMINGLAUNCHER'] = {
-		label = 'Lanzacohetes guiado',
-		description = 'Lanzacohetes guiado por infrarrojos, dispara y olvídate. Para todas tus necesidades de objetivos móviles.',
+		label = 'Lanzamisiles guiado',
+		description = 'Lanzador de misiles guiados dispara-y-olvida. Un verdadero peligro contra objetivos aéreos y terrestres de alta movilidad.',
 		weight = 20000,
 		durability = 0.02,
 		ammoname = 'ammo-rocket'
 	},
 	['WEAPON_KNIFE'] = {
 		label = 'Cuchillo',
-		description = 'Un Gran Cuchillo Afilado y Comodo para todo tipo de tareas que lo precisen.',
+		description = 'Cuchillo estándar de supervivencia de alta calidad, producido para las fuerzas armadas de los EE.UU.',
 		weight = 300,
 		durability = 0.1,
 	},
@@ -388,7 +388,7 @@ Weapons = {
 	},
 	['WEAPON_MICROSMG'] = {
 		label = 'Microsubfusil',
-		description = 'Un clasico de las Calles de Los Santos, creo que Podria reconocer su sonido desde la otra punta de la ciudad.',
+		description = 'Clásica submetralleta de fabricación israelí, un verdadero problema en las manos equivocadas.',
 		weight = 4000,
 		durability = 0.1,
 		ammoname = 'ammo-45'
@@ -401,11 +401,11 @@ Weapons = {
 		ammoname = 'ammo-rifle'
 	},
 	['WEAPON_MINIGUN'] = {
-		label = 'Ametralladora rotatoria',
-		description = 'Sembrar el Caos en la Ciudad es como quitarle el caramelo a un niño en la puerta de el colegio con esta ametralladora Rotatoria.',
+		label = 'Minigun',
+		description = 'Ametralladora rotatoria de muy alta tasa de disparo con calibre 7.62mm, modificada para poder ser utilizada desde la cadera.',
 		weight = 10000,
 		durability = 0.2,
-		ammoname = 'ammo-rifle'
+		ammoname = 'ammo-rifle2'
 	},
 	['WEAPON_MINISMG'] = {
 		label = 'Minisubfusil',
@@ -415,9 +415,9 @@ Weapons = {
 		ammoname = 'ammo-9'
 	},
 	['WEAPON_MOLOTOV'] = {
-		label = 'Cóctel molotov',
-		description = 'Inestable y muy Inflamable, intenta alejarte de estos pequeñines.',
-		weight = 1800,
+		label = 'Cóctel Molotov',
+		description = 'Cóctel incendiario de fabricación casera: botella de cristal, paño de tela y gasolina.',
+		weight = 400,
 		throwable = true,
 	},
 	['WEAPON_MUSKET'] = {
@@ -436,14 +436,14 @@ Weapons = {
 	},
 	['WEAPON_NIGHTSTICK'] = {
 		label = 'Porra',
-		description = 'La Mejor Amiga de un Miembro de las fuerzas y cuerpos de Seguridad de el estado.',
+		description = 'Barra contundente para repartir hostias.',
 		weight = 1000,
 		durability = 0.1,
 	},
 	['WEAPON_PETROLCAN'] = {
 		label = 'Bidón de gasolina',
-		description = 'Llevar uno de estos en el Maletero, puede ayudarte a llegar a tu destino.',
-		weight = 12000,
+		description = 'Bidón especialmente diseñado para cargar combustible de forma segura y fácil de llevar.',
+		weight = 5000,
 		durability = '????',
 	},
 	['WEAPON_PIPEBOMB'] = {
@@ -454,14 +454,14 @@ Weapons = {
 	},
 	['WEAPON_PISTOL'] = {
 		label = 'Pistola',
-		description = 'La Defensa personal en las oscuras y frias calles de el estado de San Andreas es Importante, Llevala siempre contigo y ella te intentara salvar la vida, o no.',
+		description = 'La defensa personal en las oscuras y frias calles del estado de San Andreas es importante, protégete llevándola siempre escondida bajo el pantalón.',
 		weight = 970,
 		durability = 0.1,
 		ammoname = 'ammo-9'
 	},
 	['WEAPON_PISTOL50'] = {
 		label = 'Pistola de calibre 50',
-		description = 'El tamaño si Importa, Y quien diga que no, es por que no ha probado la Municion .50.',
+		description = 'El tamaño importa.',
 		weight = 2000,
 		durability = 0.1,
 		ammoname = 'ammo-50'
@@ -487,7 +487,7 @@ Weapons = {
 	},
 	['WEAPON_PUMPSHOTGUN'] = {
 		label = 'Escopeta de corredera',
-		description = 'Ese Cartucho Cayendo al suelo despues de ser Disparado y el Olor a Polvora inundando tus pulmones, si con esta escopeta eso es lo que sientes.',
+		description = 'Ese cartucho cayendo al suelo despues de ser disparado y el olor a pólvora inundando tus pulmones. Con esta escopeta, eso es lo que sientes.',
 		weight = 3400,
 		durability = 0.1,
 		ammoname = 'ammo-shotgun'
@@ -522,21 +522,21 @@ Weapons = {
 	},
 	['WEAPON_RPG'] = {
 		label = 'Lanzacohetes',
-		description = 'El Clasico RPG que se usa en las Guerras, y que ves en las Peliculas, solo que este es de verdad.',
+		description = 'El clásico RPG soviético utilizado en guerras en todo el mundo, y que ves en las películas, solo que este es de verdad.',
 		weight = 5000,
 		durability = 0.02,
 		ammoname = 'ammo-rocket'
 	},
 	['WEAPON_SAWNOFFSHOTGUN'] = {
 		label = 'Escopeta recortada',
-		description = 'Discreta y facil de trasportar, Conozco a mucha gente que no puede dormir sin ella debajo de la almohada.',
+		description = 'Discreta y fácil de trasportar, conozco a mucha gente que no puede dormir sin ella debajo de la almohada.',
 		weight = 2380,
 		durability = 0.1,
 		ammoname = 'ammo-shotgun'
 	},
 	['WEAPON_SMG'] = {
 		label = 'Subfusil',
-		description = 'Recuerdo a varios agentes portando este tipo de arma en las paradas de metro, parece que les agrada llevarla, creo que sera por su estabilidad y fiabilidad, si, es por eso.',
+		description = 'Recuerdo a varios agentes portando este tipo de arma en las paradas de metro, parece que les agrada llevarla, creo que será por su estabilidad y fiabilidad, sí, es por eso.',
 		weight = 3084,
 		durability = 0.8,
 		ammoname = 'ammo-9'
@@ -550,20 +550,20 @@ Weapons = {
 	},
 	['WEAPON_SMOKEGRENADE'] = {
 		label = 'Gas lacrimógeno',
-		description = 'Duermete Niño, Duermete ya, que Vendra el S.W.A.T y te dentrenda.',
+		description = 'Duérmete niño, duérmete ya, que vendrá el SWAT y te dentrendrá.',
 		weight = 600,
 		throwable = true,
 	},
 	['WEAPON_SNIPERRIFLE'] = {
 		label = 'Fusil de francotirador',
-		description = 'El Fusil Preferido de los Cazadores De San Andreas, Creo que entre los ciervos de la zona se le suele llamar "el padre de Bambi".',
+		description = 'El rifle preferido de los cazadores de San Andreas, creo que entre los ciervos de la zona se le suele llamar "el padre de Bambi".',
 		weight = 6500,
 		durability = 0.5,
 		ammoname = 'ammo-sniper'
 	},
 	['WEAPON_SNOWBALL'] = {
 		label = 'Bola de nieve',
-		description = 'Fria Nieve de Invierno, si la acercas a tu nariz, huele a Navidad.',
+		description = 'Fría nieve invernal, si la acercas a tu nariz, huele a Navidad.',
 		weight = 5,
 		throwable = true,
 	},
@@ -597,16 +597,9 @@ Weapons = {
 	},
 	['WEAPON_STICKYBOMB'] = {
 		label = 'Bomba adhesiva',
-		description = 'Explosivo C4, Con esto Solo Pretendes destrozar y causar el Panico en San Andreas.',
+		description = 'Dispositivo explosivo capaz de adherirse a cualquier superficie y ser detonado a distancia.',
 		weight = 1000,
 		throwable = true,
-	},
-	['WEAPON_STINGER'] = {
-		label = 'Lanzacohetes',
-		description = 'Un Lanzador de Cohetes Clasico.',
-		weight = 7000,
-		durability = 0.1,
-		ammoname = 'ammo-rocket'
 	},
 	['WEAPON_STONE_HATCHET'] = {
 		label = 'Hachuela de piedra',
@@ -616,7 +609,7 @@ Weapons = {
 	},
 	['WEAPON_STUNGUN'] = {
 		label = 'Pistola eléctrica',
-		description = 'Siente Como 4000V recorren el Cuerpo de la Persona que sea disprada por esta pequeña.',
+		description = 'Arma aturdidora que causa electrocución en el objetivo para poder reducirle con seguridad y de forma no letal (arriesgado para cardiópatas).',
 		weight = 227,
 		durability = 0.1,
 	},
