@@ -1,6 +1,6 @@
 Components = {
-	['at_flashlight'] = {/*linterna*/
-		label = 'Tactical Flashlight',
+	['at_flashlight'] = {--[[linterna]]
+		label = 'Accesorio - linterna táctica',
 		weight = 120,
 		type = 'flashlight',
 		client = {
@@ -10,8 +10,8 @@ Components = {
 	},
 
 	['at_suppressor_light'] = {
-		label = 'Suppressor',
-		weight = 280,
+		label = 'Accesorio - Silenciador (S)',
+		weight = 250,
 		type = 'barrel',
 		client = {
 			component = {`COMPONENT_AT_PI_SUPP`, `COMPONENT_AT_PI_SUPP_02`},
@@ -19,18 +19,28 @@ Components = {
 		}
 	},
 
-	['at_suppressor_heavy'] = {
-		label = 'Tactical Suppressor',
-		weight = 280,
+	['at_suppressor_medium'] = {
+		label = 'Accesorio - Silenciador (M)',
+		weight = 320,
 		type = 'barrel',
 		client = {
-			component = {`COMPONENT_AT_AR_SUPP`, `COMPONENT_AT_AR_SUPP_02`, `COMPONENT_AT_SR_SUPP`, `COMPONENT_AT_SR_SUPP_03`},
+			component = {`COMPONENT_AT_AR_SUPP`, `COMPONENT_AT_AR_SUPP_02`, `COMPONENT_AT_SR_SUPP` },
 			usetime = 2500
 		}
 	},
 
-	['at_grip'] = {/*empuñadura*/
-		label = 'Grip Tape',
+	['at_suppressor_heavy'] = {
+		label = 'Accesorio - Silenciador (XL)',
+		weight = 550,
+		type = 'barrel',
+		client = {
+			component = {`COMPONENT_AT_SR_SUPP_03`},
+			usetime = 2500
+		}
+	},
+
+	['at_grip'] = {--[[empuñadura]]
+		label = 'Accesorio - Emuñadura',
 		type = 'grip',
 		weight = 280,
 		client = {
@@ -39,8 +49,8 @@ Components = {
 		}
 	},
 
-	['at_barrel'] = {/*cañon*/
-		label = 'Heavy Barrel',
+	['at_barrel'] = {--[[cañon]]
+		label = 'Cañón pesado',
 		type = 'barrel',
 		weight = 280,
 		client = {
@@ -48,9 +58,9 @@ Components = {
 			usetime = 2500
 		}
 	},
-/*----------Cargadores----------*/
+--[[----------Cargadores----------]]
 	['at_clip_extended_pistol'] = {
-		label = 'Extended Pistol Clip',
+		label = 'Accesorio - Carg. ext. (pistola)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -60,7 +70,7 @@ Components = {
 	},
 
 	['at_clip_extended_smg'] = {
-		label = 'Extended SMG Clip',
+		label = 'Accesorio - Carg. ext. (SMG)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -70,7 +80,7 @@ Components = {
 	},
 
 	['at_clip_extended_shotgun'] = {
-		label = 'Extended Shotgun Clip',
+		label = 'Accesorio - Carg. ext. (escopeta)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -80,7 +90,7 @@ Components = {
 	},
 
 	['at_clip_extended_rifle'] = {
-		label = 'Extended Rifle Clip',
+		label = 'Accesorio - Carg. ext. (rifle)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -90,7 +100,7 @@ Components = {
 	},
 
 	['at_clip_extended_mg'] = {
-		label = 'Extended MG Clip',
+		label = 'Accesorio - Carg. ext. (MG)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -100,7 +110,7 @@ Components = {
 	},
 
 	['at_clip_extended_sniper'] = {
-		label = 'Extended Sniper Clip',
+		label = 'Accesorio - Carg. ext. (sniper)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -110,7 +120,7 @@ Components = {
 	},
 
 	['at_clip_drum_smg'] = {
-		label = 'SMG Drum Clip',
+		label = 'Accesorio - Carg. tambor (SMG)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -120,7 +130,7 @@ Components = {
 	},
 
 	['at_clip_drum_shotgun'] = {
-		label = 'Shotgun Drum Clip',
+		label = 'Accesorio - Carg. tambor (escopeta)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -130,7 +140,7 @@ Components = {
 	},
 
 	['at_clip_drum_rifle'] = {
-		label = 'Rifle Drum Clip',
+		label = 'Accesorio - Carg. tambor (rifle)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -140,7 +150,7 @@ Components = {
 	},
 
 	['at_clip_armorpiercing'] = {
-		label = 'Armorpiercing Special Clip',
+		label = 'Munición perforante (AP)',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -150,7 +160,7 @@ Components = {
 	},
 
 	['at_clip_fmj'] = {
-		label = 'FMJ Special Clip',
+		label = 'Munición FMJ',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -160,7 +170,7 @@ Components = {
 	},
 
 	['at_clip_incendiary'] = {
-		label = 'Incendiary Special Clip',
+		label = 'Munición incendiaria',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -170,7 +180,7 @@ Components = {
 	},
 
 	['at_clip_tracer'] = {
-		label = 'Tracer Special Clip',
+		label = 'Munición trazadora',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -180,7 +190,7 @@ Components = {
 	},
 
 	['at_clip_hollowpoint'] = {
-		label = 'Hollowpoint Special Clip',
+		label = 'Munición punta hueca',
 		type = 'magazine',
 		weight = 280,
 		client = {
@@ -190,7 +200,7 @@ Components = {
 	},
 
 	['at_compensator'] = {
-		label = 'Compensator',
+		label = 'Accesorio - Compensador',
 		type = 'barrel',
 		weight = 280,
 		client = {
@@ -198,9 +208,9 @@ Components = {
 			usetime = 2500
 		}
 	},
-/*-----------Miras------------*/
+--[[-----------Miras------------]]
 	['at_scope_small'] = {
-		label = 'Sight',
+		label = 'Accesorio - Mira holográfica',
 		type = 'sight',
 		weight = 280,
 		client = {
@@ -210,7 +220,7 @@ Components = {
 	},
 
 	['at_scope_medium'] = {
-		label = 'Scope',
+		label = 'Accesorio - Mira media',
 		type = 'sight',
 		weight = 280,
 		client = {
@@ -220,7 +230,7 @@ Components = {
 	},
 
 	['at_scope_advanced'] = {
-		label = 'Advanced Scope',
+		label = 'Accesorio - Mira avanzada',
 		type = 'sight',
 		weight = 280,
 		client = {
@@ -230,7 +240,7 @@ Components = {
 	},
 
 	['at_scope_zoom'] = {
-		label = 'Zoom Scope',
+		label = 'Accesorio - Mira 8x',
 		type = 'sight',
 		weight = 280,
 		client = {
@@ -240,7 +250,7 @@ Components = {
 	},
 
 	['at_scope_nv'] = {
-		label = 'NV Scope',
+		label = 'Accesorio - Mira nocturna',
 		type = 'sight',
 		weight = 420,
 		client = {
@@ -250,7 +260,7 @@ Components = {
 	},
 
 	['at_scope_thermal'] = {
-		label = 'Thermal Scope',
+		label = 'Accesorio - Mira térmica',
 		type = 'sight',
 		weight = 420,
 		client = {
@@ -258,9 +268,9 @@ Components = {
 			usetime = 2500
 		}
 	},
-/*-----------Boca de cañon-----------*/
+--[[-----------Boca de cañon-----------]]
 	['at_muzzle_squared'] = {
-		label = 'Squared Muzzle',
+		label = 'Accesorio - Bocacha cuadrada',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -270,7 +280,7 @@ Components = {
 	},
 
 	['at_muzzle_bell'] = {
-		label = 'Bell Muzzle',
+		label = 'Accesorio - Bocacha campana',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -280,7 +290,7 @@ Components = {
 	},
 
 	['at_muzzle_flat'] = {
-		label = 'Flat Muzzle',
+		label = 'Accesorio - Bocacha plana',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -290,7 +300,7 @@ Components = {
 	},
 
 	['at_muzzle_tactical'] = {
-		label = 'Tactical Muzzle',
+		label = 'Accesorio - Bocacha táctica',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -300,7 +310,7 @@ Components = {
 	},
 
 	['at_muzzle_fat'] = {
-		label = 'Fat Muzzle',
+		label = 'Accesorio - Bocacha gruesa',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -310,7 +320,7 @@ Components = {
 	},
 
 	['at_muzzle_precision'] = {
-		label = 'Precision Muzzle',
+		label = 'Accesorio - Bocacha de precisión',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -320,7 +330,7 @@ Components = {
 	},
 
 	['at_muzzle_heavy'] = {
-		label = 'Heavy Muzzle',
+		label = 'Accesorio - Bocacha pesada',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -330,7 +340,7 @@ Components = {
 	},
 
 	['at_muzzle_slanted'] = {
-		label = 'Slanted Muzzle',
+		label = 'Accesorio - Bocacha inclinada',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -340,7 +350,7 @@ Components = {
 	},
 
 	['at_muzzle_split'] = {
-		label = 'Split Muzzle',
+		label = 'Accesorio - Bocacha dividida',
 		type = 'barrel',
 		weight = 80,
 		client = {
@@ -348,9 +358,9 @@ Components = {
 			usetime = 2500
 		}
 	},
-/*-----------SKINS----------*/
+--[[-----------SKINS----------]]
 	['at_skin_gold'] = {
-		label = 'Luxury Weapon Kit',
+		label = 'Skin kit - Luxury',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -360,7 +370,7 @@ Components = {
 	},
 
 	['at_skin_camo'] = {
-		label = 'Camo Weapon Kit',
+		label = 'Skin kit - Camo',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -370,7 +380,7 @@ Components = {
 	},
 
 	['at_skin_brushstroke'] = {
-		label = 'Brushstroke Weapon Kit',
+		label = 'Skin kit - Brushstroke',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -380,7 +390,7 @@ Components = {
 	},
 
 	['at_skin_woodland'] = {
-		label = 'Woodland Weapon Kit',
+		label = 'Skin kit - Woodland',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -390,7 +400,7 @@ Components = {
 	},
 
 	['at_skin_skull'] = {
-		label = 'Skull Weapon Kit',
+		label = 'Skin kit - Skull',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -400,7 +410,7 @@ Components = {
 	},
 
 	['at_skin_sessanta'] = {
-		label = 'Sessanta Weapon Kit',
+		label = 'Skin kit - Sessanta',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -410,7 +420,7 @@ Components = {
 	},
 
 	['at_skin_perseus'] = {
-		label = 'Perseus Weapon Kit',
+		label = 'Skin kit - Perseus',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -420,7 +430,7 @@ Components = {
 	},
 
 	['at_skin_leopard'] = {
-		label = 'Leopard Weapon Kit',
+		label = 'Skin kit - Leopard',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -430,7 +440,7 @@ Components = {
 	},
 
 	['at_skin_zebra'] = {
-		label = 'Zebra Weapon Kit',
+		label = 'Skin kit - Zebra',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -440,7 +450,7 @@ Components = {
 	},
 
 	['at_skin_geometric'] = {
-		label = 'Geometric Weapon Kit',
+		label = 'Skin kit - Geometric',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -450,7 +460,7 @@ Components = {
 	},
 
 	['at_skin_boom'] = {
-		label = 'Boom Weapon Kit',
+		label = 'Skin kit - Boom',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -460,7 +470,7 @@ Components = {
 	},
 
 	['at_skin_patriotic'] = {
-		label = 'Patriotic Weapon Kit',
+		label = 'Skin kit - Patriotic',
 		type = 'skin',
 		weight = 50,
 		client = {
@@ -468,4 +478,4 @@ Components = {
 			usetime = 2500
 		}
 	},
-},
+}
