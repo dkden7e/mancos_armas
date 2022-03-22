@@ -132,7 +132,7 @@ Weapons = {
 		description = 'Uno nunca se cansa de lo bueno: al fin al cabo, si el primer disparo cuenta, los cien siguientes tienen que contar el doble.',
 		weight = 10500,
 		durability = 0.02,
-		ammoname = 'ammo-rifle2'
+		ammoname = 'ammo-rifle3'
 	},
 	['WEAPON_COMBATPDW'] = {
 		label = 'ADP de combate',
@@ -167,7 +167,7 @@ Weapons = {
 		description = 'La mitad de tamaño, toda la potencia y el doble de retroceso: no hay una forma más peligrosa de decir "estoy compensando algo".',
 		weight = 2700,
 		durability = 0.05,
-		ammoname = 'ammo-rifle2'
+		ammoname = 'ammo-rifle'
 	},
 	['WEAPON_CROWBAR'] = {
 		label = 'Palanca',
@@ -303,7 +303,7 @@ Weapons = {
 		description = 'La respuesta directa con 30 proyectiles a la eterna pregunta: "¿Cómo me quito a este tipo de encima?".',
 		weight = 3800,
 		durability = 0.05,
-		ammoname = 'ammo-rifle2'
+		ammoname = 'ammo-rifle3'
 	},
 	['WEAPON_HEAVYSHOTGUN'] = {
 		label = 'Escopeta pesada',
@@ -331,7 +331,7 @@ Weapons = {
 		description = 'Lanzador de misiles guiados dispara-y-olvida. Un verdadero peligro contra objetivos aéreos y terrestres de alta movilidad.',
 		weight = 20000,
 		durability = 0.02,
-		ammoname = 'ammo-rocket'
+		ammoname = 'ammo-missile'
 	},
 	['WEAPON_KNIFE'] = {
 		label = 'Cuchillo',
@@ -391,7 +391,7 @@ Weapons = {
 		description = 'Clásica submetralleta de fabricación israelí, un verdadero problema en las manos equivocadas.',
 		weight = 4000,
 		durability = 0.1,
-		ammoname = 'ammo-45'
+		ammoname = 'ammo-9'
 	},
 	['WEAPON_MILITARYRIFLE'] = {
 		label = 'Fusil militar',
@@ -405,7 +405,7 @@ Weapons = {
 		description = 'Ametralladora rotatoria de muy alta tasa de disparo con calibre 7.62mm, modificada para poder ser utilizada desde la cadera.',
 		weight = 10000,
 		durability = 0.2,
-		ammoname = 'ammo-rifle2'
+		ammoname = 'ammo-rifle3'
 	},
 	['WEAPON_MINISMG'] = {
 		label = 'Minisubfusil',
